@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.10.6)  7 OCT 2026 13:04
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2026.10.6)  7 OCT 2026 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -537,6 +537,11 @@ Package fontspec Info:
 (fontspec)             <->"[FandolFang-Regular.otf]/OT:script=hani;language=dflt;"
 
 
+Overfull \hbox (12.19952pt too wide) in paragraph at lines 127--130
+[]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][]$[] 
+ []
+
+
 
 [1
 
@@ -551,7 +556,7 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Here is how much of TeX's memory you used:
  15524 strings out of 475381
  338773 string characters out of 5762518
- 766860 words of memory out of 5000000
+ 767860 words of memory out of 5000000
  38271 multiletter control sequences out of 15000+600000
  564385 words of font info for 68 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
