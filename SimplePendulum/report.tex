@@ -1,0 +1,139 @@
+\documentclass{report}
+
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{amsmath}
+
+\begin{document}
+
+\vspace{-10cm}
+
+\begin{center}
+    \huge \bfseries \mbox {Simple Pendulum Experiment Report}
+\end{center}
+
+\begin{center}
+    \large \bfseries \mbox {Zheng zhihao}
+\end{center}
+
+\section*{\centering The Measurement of Pendulum Length}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+H(mm)                        & D(mm)                     & L = H – D/2  (mm)           & u(L)(mm)                  & u(L)/L                     \\ \hline
+\multicolumn{1}{|r|}{1020.0} & \multicolumn{1}{r|}{20.0} & \multicolumn{1}{r|}{1000.0} & \multicolumn{1}{r|}{5.00} & \multicolumn{1}{r|}{0.005} \\ \hline
+\end{tabular}
+\end{table}
+
+\section*{\centering The Measurement of Period(n=9.5)}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|r|rr|}
+\hline
+\multicolumn{1}{|l|}{\multirow{2}{*}{Serial No.}}         & \multicolumn{2}{l|}{nT(s)}                                                           \\ \cline{2-3} 
+\multicolumn{1}{|l|}{}                                    & \multicolumn{1}{l|}{Photogate Sensor(\(\mu \)s)} & \multicolumn{1}{l|}{Stopwatch(s)} \\ \hline
+1                                                         & \multicolumn{1}{r|}{18913588}                    & 18.83                             \\ \hline
+2                                                         & \multicolumn{1}{r|}{18933696}                    & 18.93                             \\ \hline
+3                                                         & \multicolumn{1}{r|}{18920487}                    & 19.00                             \\ \hline
+4                                                         & \multicolumn{1}{r|}{18926872}                    & 18.98                             \\ \hline
+5                                                         & \multicolumn{1}{r|}{18873810}                    & 18.84                             \\ \hline
+6                                                         & \multicolumn{1}{r|}{18917751}                    & 18.91                             \\ \hline
+7                                                         & \multicolumn{1}{r|}{18912606}                    & 18.99                             \\ \hline
+8                                                         & \multicolumn{1}{r|}{18877434}                    & 18.99                             \\ \hline
+9                                                         & \multicolumn{1}{r|}{18867396}                    & 18.86                             \\ \hline
+10                                                        & \multicolumn{1}{r|}{18871718}                    & 18.99                             \\ \hline
+\multicolumn{1}{|l|}{{}\(\overline{T}\) (s)}        & \multicolumn{1}{r|}{18.9015358}                  & 18.932                            \\ \hline
+\multicolumn{1}{|l|}{u({}\(\overline{T}\)(s))} & \multicolumn{1}{r|}{5e-7}                        & 0.5                               \\ \hline
+\end{tabular}
+\end{table}
+
+
+\section*{Numerical Calculation}
+
+\subsection*{1. Non-ideal factors in measuring gravitational acceleration with a simple pendulum}
+
+The period formula for small-angle oscillation of a simple pendulum is:
+
+\begin{equation}
+    T_0 = 2\pi \sqrt{\frac{L}{g}} \quad (1)
+\end{equation}
+
+where \(L\) is the pendulum length, and \(g\) is the gravitational acceleration. By measuring the pendulum length \(L\) and the period \(T_0\), we can obtain:
+
+\begin{equation}
+    g = \frac{4\pi^2 L}{T_0^2} = 9.78 \text{ m/s}^2 \quad (2)
+\end{equation}
+
+This is the principle of measuring gravitational acceleration using a simple pendulum. The derivation of formula (2.1.1) ignores many non-ideal factors, including:
+
+(1) The actual pendulum bob is not a point mass and has a certain shape and size, and the connection between the bob and the string is not a rigid body. Assuming the bob is a uniform sphere, the pendulum length \(L\) in formula (2.1.1) should be corrected to the equivalent pendulum length \(L'\):
+
+\begin{equation}
+    L' \approx L \left( 1 + \frac{2r^2}{5l^2} \right) = 1.0200 \text{ m} \quad (3)
+\end{equation}
+
+where \(r\) is the radius of the pendulum bob.
+
+(2) When deriving formula (1), it is assumed that \(\sin \theta\) can be approximated by \(\theta\), so it is only exact when the amplitude approaches zero. If the amplitude is \(\theta_0\), the strict period formula is:
+
+\begin{equation}
+    T = \sqrt{\frac{L}{g}} \int_0^{2\pi} \frac{d\varphi}{\sqrt{1 - \sin^2(\frac{\theta_0}{2}) \sin^2 \varphi}} \approx T_0 \left( 1 + \frac{\theta_0^2}{16} \right) = 1.9913 \text{ s} \quad (4)
+\end{equation}
+
+(3) If the simple pendulum is not in a vacuum, the buoyancy of the air on the pendulum bob needs to be considered. In this way, the actually measured gravitational acceleration should be:
+
+\begin{equation}
+    g' = g \left( 1 - \frac{\rho_0}{\rho} \right) = 9.78 \times \left( 1 - \frac{1.29}{7800} \right) = 9.778 \text{ m/s}^2 \quad (5)
+\end{equation}
+
+where \(\rho=7800 \text{ kg/m}^3\) and \(\rho_0=1.29 \text{ kg/m}^3\) are the densities of the pendulum bob and air, respectively.
+
+(4) Energy dissipation is ignored. Energy dissipation comes from factors such as the viscous resistance of air on the moving parts (bob and string), the deformation of the string during oscillation, and slight shaking of the support. If the resistance is proportional to the velocity, the actual period \(T'\) will slightly increase compared to the period \(T\) without damping:
+
+\begin{equation}
+    T' = \frac{T}{\sqrt{1 - \frac{1}{4Q^2}}} \approx \left( 1 + \frac{1}{8Q^2} \right) T = 1.9911 \text{ s} \quad (6)
+\end{equation}
+
+where \(Q\) is the quality factor of the simple pendulum, which can be estimated by the following formula:
+
+\begin{equation}
+    Q = \frac{\pi}{\ln 2} n_{1/2} \approx 4.53 n_{1/2} = 846.0 \quad (7)
+\end{equation}
+
+where \(n_{1/2}\) represents the number of oscillations experienced for the amplitude to decay to half of its initial value.
+
+(5) The physical properties of the string are ignored, treating it only as a geometric constraint. The actual string has mass and elasticity, which will affect the period of the simple pendulum.
+
+(6) The influence of environmental (including support) instability is ignored.
+
+\subsection*{2. Measurement Uncertainty}
+
+For the non-ideal factors listed above, the effects of the first 4 items can be handled by theoretical corrections. The corrected formula for calculating gravitational acceleration is:
+
+\begin{equation}
+    g = \frac{4\pi^2 L}{T^2} \left( 1 + \frac{2r^2}{5L^2} + \frac{\theta_0^2}{8} + \frac{\rho_0}{\rho} + \frac{1}{4Q^2} \right) = 9.78 \text{ m/s}^2 \quad (8)
+\end{equation}
+
+For other influencing factors, one can choose/design a suitable experimental setup to reduce their influence, such as using a sufficiently thin, soft, and non-stretchable string, and making both the pendulum length and period have errors,
+
+Not all correction terms in formula (8) need to be considered. We can first calculate the gravitational acceleration according to formula (2), which gives:
+
+\begin{equation}
+    u(g) = g \sqrt{ \left( \frac{u(L)}{L} \right)^2 + 4 \left( \frac{u(T)}{T} \right)^2 } = 0.061 \text{ m/s}^2 \quad (9)
+\end{equation}
+
+Then compare each correction term with \(u(g)\). If the correction amount is much smaller than \(u(g)\), it does not need to be considered.
+
+The change in \(g\) caused by correction term (3) is: \(9.78 \times \frac{2 \times 0.010^2}{5 \times 1.010^2} = 0.00038 \text{ m/s}^2\), which is much smaller than \(0.061\) and does not need to be considered.
+
+The change in \(g\) caused by correction term (4) is: \(9.78 \times 2 \times \frac{0.0349^2}{16} = 0.0015 \text{ m/s}^2\), which is much smaller than \(0.061\) and does not need to be considered.
+
+The change in \(g\) caused by correction term (5) is: \(9.78 \times \frac{1.29}{7800} = 0.0016 \text{ m/s}^2\), which is much smaller than \(0.061\) and does not need to be considered.
+
+The change in \(g\) caused by correction term (6) is: \(9.78 \times \frac{1}{4 \times 846.0^2} = 0.0000034 \text{ m/s}^2\), which is much smaller than \(0.061\) and does not need to be considered.
+
+
+\end{document}
