@@ -1,0 +1,48 @@
+\contentsline {section}{\numberline {1}摘要}{3}{section.1}%
+\contentsline {section}{\numberline {2}实验目的}{3}{section.2}%
+\contentsline {section}{\numberline {3}实验仪器}{3}{section.3}%
+\contentsline {section}{\numberline {4}实验原理}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}剪切模量}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}扭摆}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}扭摆的测量原理}{6}{subsection.4.3}%
+\contentsline {section}{\numberline {5}实验内容}{6}{section.5}%
+\contentsline {section}{\numberline {6}实验方法}{6}{section.6}%
+\contentsline {section}{\numberline {7}注意事项}{7}{section.7}%
+\contentsline {section}{\numberline {8}实验数据与结果}{7}{section.8}%
+\contentsline {subsection}{\numberline {8.1}装置测量参数}{7}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}改变小球的位置($d$),测量扭摆的角频率($\omega $)}{7}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}测量扭摆空载角频率($\omega $)和负载角频率($\omega ‘$)，计算圆环的转动惯量}{8}{subsection.8.3}%
+\contentsline {section}{\numberline {9}正片开始（）}{8}{section.9}%
+\contentsline {subsection}{\numberline {9.1}稍微更准确的讨论}{8}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}处理数据}{9}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}FFT：寻找振动频率}{9}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Hilbert变换：寻找振幅包络}{10}{subsubsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}SciPy非线性最小二乘拟合}{11}{subsubsection.9.2.3}%
+\contentsline {section}{\numberline {10}稍微更准确的拟合结果}{12}{section.10}%
+\contentsline {subsection}{\numberline {10.1}改变小球的位置}{12}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}测转动惯量}{15}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}空载}{15}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}负载}{16}{subsubsection.10.2.2}%
+\contentsline {section}{\numberline {11}误差分析与测量不确定度评定}{17}{section.11}%
+\contentsline {subsection}{\numberline {11.1}不确定度的来源与评定方法}{17}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}A 类标准不确定度}{17}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}扭丝直径}{17}{subsubsection.11.2.1}%
+\contentsline {subsubsection}{\numberline {11.2.2}空载与负载角频率}{17}{subsubsection.11.2.2}%
+\contentsline {subsubsection}{\numberline {11.2.3}直线拟合系数}{18}{subsubsection.11.2.3}%
+\contentsline {subsection}{\numberline {11.3}B 类标准不确定度}{18}{subsection.11.3}%
+\contentsline {subsubsection}{\numberline {11.3.1}几何尺寸及质量测量}{18}{subsubsection.11.3.1}%
+\contentsline {subsubsection}{\numberline {11.3.2}PASCO 850 信号采集}{19}{subsubsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.4}间接测量量的合成标准不确定度}{19}{subsection.11.4}%
+\contentsline {subsubsection}{\numberline {11.4.1}扭转系数 $k$}{19}{subsubsection.11.4.1}%
+\contentsline {subsubsection}{\numberline {11.4.2}剪切模量 $\mu $}{19}{subsubsection.11.4.2}%
+\contentsline {subsubsection}{\numberline {11.4.3}摆盘等效转动惯量 $I_0$}{20}{subsubsection.11.4.3}%
+\contentsline {subsubsection}{\numberline {11.4.4}圆环转动惯量测量值}{20}{subsubsection.11.4.4}%
+\contentsline {subsubsection}{\numberline {11.4.5}圆环转动惯量理论值}{20}{subsubsection.11.4.5}%
+\contentsline {subsection}{\numberline {11.5}理论值与测量值比较}{21}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}主要误差来源与改进措施}{21}{subsection.11.6}%
+\contentsline {subsection}{\numberline {11.7}不确定度结果汇总与结论}{22}{subsection.11.7}%
+\contentsline {section}{\numberline {12}附录}{22}{section.12}%
+\contentsline {subsection}{\numberline {12.1}拟合代码}{22}{subsection.12.1}%
+\contentsline {subsubsection}{\numberline {12.1.1}线性拟合代码}{22}{subsubsection.12.1.1}%
+\contentsline {subsubsection}{\numberline {12.1.2}阻尼振动拟合代码}{24}{subsubsection.12.1.2}%
+\contentsline {subsection}{\numberline {12.2}数据}{29}{subsection.12.2}%
