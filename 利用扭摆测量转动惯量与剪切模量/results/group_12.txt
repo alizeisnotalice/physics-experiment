@@ -1,0 +1,9 @@
+\begin{align*}
+U(t)&=0.23419206e^{-0.0071720096t}\cos\left(24.004827t-1.032905\right)+0.035928727\\
+A &= 0.23419206\,\mathrm{V}\\
+\beta &= 0.0071720096\,\mathrm{s^{-1}}\\
+\omega &= 24.004827\,\mathrm{rad/s}\\
+\varphi &= -1.032905\,\mathrm{rad}\\
+C &= 0.035928727\,\mathrm{V}\\
+R^2 &= 0.99970213
+\end{align*}

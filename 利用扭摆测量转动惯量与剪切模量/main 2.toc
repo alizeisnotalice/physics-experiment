@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}摘要}{2}{}%
+\contentsline {section}{\numberline {2}实验目的}{2}{}%
+\contentsline {section}{\numberline {3}实验仪器}{2}{}%
+\contentsline {section}{\numberline {4}实验原理}{3}{}%
+\contentsline {subsection}{\numberline {4.1}剪切模量}{3}{}%
+\contentsline {subsection}{\numberline {4.2}扭摆}{4}{}%
+\contentsline {subsection}{\numberline {4.3}扭摆的测量原理}{5}{}%
+\contentsline {section}{\numberline {5}实验内容}{5}{}%
+\contentsline {section}{\numberline {6}实验方法}{5}{}%
+\contentsline {section}{\numberline {7}注意事项}{6}{}%
+\contentsline {section}{\numberline {8}实验数据与结果}{6}{}%
+\contentsline {subsection}{\numberline {8.1}装置测量参数}{6}{}%
+\contentsline {subsection}{\numberline {8.2}改变小球的位置($d$),测量扭摆的角频率($\omega $)}{6}{}%
+\contentsline {subsection}{\numberline {8.3}测量扭摆空载角频率($\omega $)和负载角频率($\omega ‘$)，计算圆环的转动惯量}{6}{}%
